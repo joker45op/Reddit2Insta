@@ -1,0 +1,6 @@
+instagrapi==1.16.30
+moviepy==1.0.3
+numpy==1.23.5
+Pillow==9.3.0
+RedDownloader==4.1.1
+vidgear==0.2.6
