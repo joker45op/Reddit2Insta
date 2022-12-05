@@ -7,8 +7,8 @@ from remove import remove_uploaded
 def upload():
   #cl = Client()
   #print(cl)
-  #cl.login("legendarymemezs", "Create1pa$$")
-  
+  #cl.login(username, password)
+
   #os.chdir("tooUpload")
   li = os.listdir("readytoupload")
   #print(li)
