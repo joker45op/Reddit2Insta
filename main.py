@@ -4,6 +4,7 @@ import img1
 import json
 import vidg
 from uploader import upload
+from extras import remove_uploaded
 # download from redit
 # correct ratio
 # upload to instagram
@@ -31,8 +32,10 @@ def main():
     print("{0} done".format(fi))
   upload()
   
-  #os.rem
+  f = open('info.json',"r")
+  for name in f:
+    remove_uploaded(name)
   
 def main2():
   upload()
-main2()
+main()

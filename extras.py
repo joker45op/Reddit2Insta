@@ -1,6 +1,7 @@
 import os
 
 def remove_uploaded(name):
+  print("removing")
   spli = name.split(".")
   if spli[1] == "jpg" and len(spli) == 2:
     os.remove('downloads/{0}.jpeg'.format(str(spli[0])))
@@ -20,4 +21,4 @@ def detect_url(url):
     
 url = "https://www.reddit.com/r/USAmemes/comments/u71yza/a_dark_one/?utm_medium=android_app&utm_source=share"
 
-detect(url)
+# detect(url)
